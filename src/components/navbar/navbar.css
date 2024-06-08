@@ -1,0 +1,62 @@
+.Navbar {
+    width: 375px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    background-color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    justify-content: space-around;
+    font-size: 16px;
+    margin: auto;
+  }
+  
+  .night-mode {
+    background-color: black;
+  }
+  
+  .night-mode-text {
+    color: white;
+  }
+  
+  button.Dark-Mode{
+    background-color: transparent;
+    border: transparent;
+    cursor: pointer;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 16px;
+  }
+
+  @media screen and (min-width:1024px) {
+    .Navbar {
+      width: 1551px;
+      height: 80px;
+      display: flex;
+      align-items: center;
+      background-color: white;
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      justify-content: space-around;
+      gap: 1000px;
+      font-size: 16px;
+    
+    }
+
+    
+  .night-mode {
+    background-color: black;
+  }
+
+  
+  .night-mode-text {
+    color: white;
+  }
+
+  
+  button.Dark-Mode{
+    background-color: transparent;
+    border: transparent;
+    cursor: pointer;
+    font-family: 20px
+    ;
+  }
+
+  }
